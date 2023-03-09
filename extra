@@ -1,0 +1,16 @@
+4 api's
+
+-> one api is to get the all users registered
+
+-> second api - option to register users
+ex:  {"name":"Nidhi", "email":"nidhi@gmail.com","password": "12345678", "phone":936464566,"role":"Admin"(optional)}
+
+-> third api - to login user
+ex: {"email":"nidhi@gmail.com","password": "12345678"}
+check the password and username both are correct or not
+
+
+-> fourth api - to get user info
+
+
+Mongoose - we can define the type of the columns(schema(model or structure(how my db look like)))
