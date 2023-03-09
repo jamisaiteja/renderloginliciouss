@@ -5,8 +5,8 @@ const port = 5000;
 const cors = require('cors');
 app.use(cors());
 
-const Authcontroller = require('./Controller/AuthController');
-app.use('/api/auth',Authcontroller);
+const AuthController = require('./Controller/AuthController');
+app.use('/api/auth',AuthController);
 
 app.listen(port,() => {
     console.log(`Listing to port ${port}`)
